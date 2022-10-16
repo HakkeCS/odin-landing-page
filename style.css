@@ -1,3 +1,78 @@
-img {
-    width: 350px;
+li {
+    list-style: none;
 }
+
+.top,
+.first,
+.second,
+.nav-list,
+.hero-text,
+.info-photo,
+.third {
+    display: flex;
+}
+
+.info-title {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.first {
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: space-around;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.second,
+.third {
+    flex-direction: column;
+}
+
+.first,
+.second,
+.third,
+.bottom {
+    height: 400px;
+}
+
+.third {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.top {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.placeholder {
+    width: 450px;
+    height: 250px;
+    background-color: gray;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
